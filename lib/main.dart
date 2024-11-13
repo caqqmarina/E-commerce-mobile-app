@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ecommerce_app/menu.dart';
+import 'package:ecommerce_app/screens/menu.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,12 +11,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Slime Palace',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSwatch(
-          primarySwatch: Colors.blue,
+          primarySwatch: Colors.pink,
         ).copyWith(
-          secondary: const Color.fromARGB(255, 206, 234, 255),
+          secondary: const Color.fromARGB(255, 252, 190, 229),
         ),
       ),
       home: MyHomePage(),
