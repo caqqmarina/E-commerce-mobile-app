@@ -149,7 +149,7 @@ class _LoginPageState extends State<LoginPage> {
                       backgroundColor: Theme.of(context).colorScheme.primary,
                       padding: const EdgeInsets.symmetric(vertical: 16.0),
                     ),
-                    // child: const Text('Login'),
+                    child: const Text('Login'),
                   ),
                   const SizedBox(height: 36.0),
                   GestureDetector(
